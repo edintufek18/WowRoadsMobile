@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
     private RequestQueue requestQueue;
     private TextView hotel;
     private TextView place;
-    private String url = "https://unviersity-2021-dev.azurewebsites.net/api/HotelApi";
-    private String url1 = "https://unviersity-2021-dev.azurewebsites.net/api/PlaceApi";
+    private String url = "https://wowroads2.azurewebsites.net/api/HotelApi";
+    private String url1 = "https://wowroads2.azurewebsites.net/api/PlaceApi"    ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
