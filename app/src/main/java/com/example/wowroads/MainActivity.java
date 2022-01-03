@@ -128,4 +128,12 @@ public class MainActivity extends AppCompatActivity {
             Log.d("REST error", error.getMessage());
         }
     };
+    // 2 del
+    public static final String EXTRA_MESSAGE = "com.example.wowroads.MESSAGE";
+    public void addActivity2 (View view) {
+        Intent intent = new Intent(this,addActivity2.class);
+        String message = "Add customers to queue";
+        intent.putExtra(EXTRA_MESSAGE, message);
+        startActivity(intent);
+    }
 }
